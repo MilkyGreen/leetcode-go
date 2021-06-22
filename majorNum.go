@@ -8,7 +8,7 @@ func main() {
 func majorityElement(nums []int) int {
 	majorNum := len(nums)/2
 	countMap := make(map[int]int)
-	for _,v range : nums{
+	for _,v := range nums{
 		count,ok := countMap[v]
 		if !ok {
 			countMap[v] = 1
