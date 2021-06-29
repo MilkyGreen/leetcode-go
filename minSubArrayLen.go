@@ -48,7 +48,7 @@ func min(a int, b int) int {
 ////**给定一个含有 n 个正整数的数组和一个正整数 target 。找出该数组中满足其和 ≥ target 的长度最小的 连续子数组 [numsl, numsl+1, ..., numsr-1,numsr] ，并返回其长度。如果不存在符合条件的子数组，返回 0 。
 // 滑动窗口：11   -->击败88% go提交
 // [1,2,3,4,5]
-func minSubArrayLen(target int, nums []int) int {
+func minSubArrayLen2(target int, nums []int) int {
 	l := len(nums)
 	left := 0
 	right := 0
