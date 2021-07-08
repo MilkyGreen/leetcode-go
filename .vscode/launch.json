@@ -9,7 +9,7 @@
             "type": "go",
             "request": "launch",
             "mode": "debug",
-            "program": "/Users/edz/Desktop/projects/private/leetcode-go/productExceptSelf.go"
+            "program": "/Users/edz/Desktop/projects/private/leetcode-go/triangle.go"
         }
     ]
 }
