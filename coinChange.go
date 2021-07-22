@@ -9,9 +9,8 @@ func coinChange(coins []int, amount int) int {
 	}
 
 	dp[0] = 0 // 0元需要0个硬币就能满足
-
-	for i:=1;i<=amount;i++{
-		for j:= 0;j< l;j++{
+	for j:= 0;j< l;j++{
+		for i:=1;i<=amount;i++{
 			if coins[j]<=i{
 				dp[i] = min(dp[i],dp[i-coins[j]]+1)
 			}
